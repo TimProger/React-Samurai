@@ -18,6 +18,7 @@ class App extends React.Component {
                         <Route exact={true} path="/dialogs/*" element={<Dialogs/>} />
                         <Route path="*" element={<h2>Ресурс не найден</h2>} />
                     </Routes>
+
                 <Footer/>
             </div>
         );
